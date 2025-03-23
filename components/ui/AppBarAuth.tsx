@@ -6,7 +6,7 @@ export const AppbarAuth = () => {
   const session = useSession();
 
   const handleSignIn = async () => {
-    await signIn(); // ✅ Redirects to /blog after login
+    await signIn(); // tried to route to /blog after successful sign but I haven't did it.
 };
 
   const handleSignOut = async () => {
